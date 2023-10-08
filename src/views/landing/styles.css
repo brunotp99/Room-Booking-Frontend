@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Landing {
+    font-family: 'Poppins', sans-serif;
+}
+
+#Landing .borda {
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+#Landing .Phone {
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* (A) FULL SCREEN WRAPPER */
+#spinner {
+  position: fixed;
+  top: 0; left: 0; z-index: 9999;
+  width: 100vw; height: 100vh;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  transition: opacity 0.2s;
+}
+ 
+/* (B) CENTER LOADING SPINNER */
+#spinner img {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%);
+  width: 80px;
+}
+ 
+/* (C) SHOW & HIDE */
+#spinner {
+  visibility: visible;
+  opacity: 1;
+}

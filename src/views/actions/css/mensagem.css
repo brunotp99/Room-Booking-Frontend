@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#Mensagem .ant-input{
+    border-radius: 0.5rem !important; 
+    padding: 5px;
+}
+
+#Mensagem .ant-input:focus, .ant-input-focused {
+    border-color: #2563EB;
+    box-shadow: 0 0 0 2px rgb(37 99 235 / 20%)
+}

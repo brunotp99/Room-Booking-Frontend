@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*
+    <color name="azul_300">#5abaff</color>
+    <color name="azul_400">#2da9ff</color>
+    <color name="azul_500">#0099ff</color>
+    <color name="azul_600">#1a8aff</color>
+    <color name="azul_700">#2776ff</color>
+    <color name="azul_800">#2d63ed</color>
+    <color name="azul_900">#3340cd</color>
+ */
+.icons-menu{
+    font-size: 20.5px;
+}
+
+.icon-selected{
+    color: #2c89ff !important;
+}
+
+.blue-gradient{
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #396afc, #2948ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #396afc, #2948ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.red-gradient{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ED213A, #cc2438);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ED213A, #cc2438); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.green-gradient{
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.yellow-gradient{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdb530de, #fdb530);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdb530de, #fdb530); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.chair{
+    font-size: 18px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.flatpickr-wrapper {
+	width: 100% !important;
+}
+
+.esconde {
+    display: none;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1536px) {
+    .esconde {
+        display: block;
+        visibility: visible;
+    }
+}

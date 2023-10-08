@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.object-fit {
+	width: 32px; 
+    height: 32px;
+    object-fit: contain;
+}
+
+.picture-circle {
+    background-image: '../landing/images/default.jpg';
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    width:32px;
+    height:32px;
+}
+
+#Upload .ant-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+    height: 40px;
+    font-size: 0.875rem;
+    line-height: 1.5715;
+    border-color: rgb(209 213 219 / 1);
+    color: rgb(17 24 39 / 1);
+}
+
+#Upload .ant-upload{
+    width: 100%;
+}

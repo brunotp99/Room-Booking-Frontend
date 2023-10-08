@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --first-color: hsl(213, 94%, 68%);
+    --first-color-alt: hsl(213, 94%, 65%);
+    --text-color: hsl(231, 12%, 98%);
+}
+
+.button__loader {
+border: none;
+outline: none;
+position: relative;
+background-color: var(--first-color);
+color: var(--text-color);
+overflow: hidden;
+cursor:default;
+}
+
+.button__loader::before {
+content: '';
+position: absolute;
+width: 150%;
+height: 100%;
+background: repeating-linear-gradient(60deg, 
+            transparent, 
+            transparent 0.75rem, 
+            var(--first-color-alt) 0.75rem, 
+            var(--first-color-alt) 1.5rem);
+animation: load 1s infinite linear;
+}
+
+.button__text {
+position: relative;
+}
+/* Loading button animation */
+@keyframes load {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-1.75rem);
+}
+}

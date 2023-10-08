@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+.rbc-allday-cell {
+    display: none;
+}
+
+.rbc-time-view .rbc-header {
+  border-bottom: none;
+}
+
+  .rbc-calendar {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .rbc-calendar *,
+  .rbc-calendar *:before,
+  .rbc-calendar *:after {
+    box-sizing: inherit;
+  }
+  
+  .rbc-abs-full {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .rbc-ellipsis {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .rbc-rtl {
+    direction: rtl;
+  }
+  
+  .rbc-off-range {
+    color: red;
+  }
+  
+  .rbc-off-range-bg {
+    background: yellow;
+  }
+  
+  .rbc-header {
+    overflow: hidden;
+    flex: 1 0 0%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 3px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 90%;
+    min-height: 0;
+    padding-block: 10px;
+    background-color: rgba(30, 41, 59) !important;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .rbc-day-slot .rbc-event, .rbc-day-slot .rbc-background-event {
+    border: none;
+    background-color: rgba(37 99 235);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .rbc-time-content > .rbc-time-gutter {
+    text-align: left;
+  }
+
+  .rbc-toolbar-label{
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .rbc-time-header-gutter{
+    background-color: rgba(30, 41, 59);
+    color: white;
+    border-top-left-radius: 5px;
+  }
+
+  .rbc-header:last-child {
+    border-top-right-radius: 5px;
+  }
+  
+  .rbc-button-link {
+    color: inherit;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    user-select: text;
+  }
+  
+  .rbc-row-content {
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 4;
+  }
+  
+  .rbc-row-content-scrollable {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  
+  }
+  
+.rbc-today {
+  background-color: rgba(30, 41, 59, 0.1)
+}
+
+.rbc-current-time-indicator {
+  background: #1D4ED8 !important;
+}
+
+.rbc-btn-group button {
+    color: #1E293B;
+    background: #bbbbbb;
+    border-radius: 6px !important;
+    padding: 5px;
+    padding-inline: 10px;
+    cursor: pointer;
+    box-shadow: none !important;
+    border: none !important;
+    transition: all 0.4s ease;
+    margin-right: 5px;
+}
+
+.rbc-btn-group button:hover {
+  background: #2563EB;
+  color: white;
+}
+
+.rbc-toolbar button.rbc-active {
+  box-shadow: none !important;
+  border: none !important;
+  color: white !important;
+}
+
+.rbc-btn-group .rbc-active{
+  color: white;
+  background-color: #2563EB !important;
+  border-color: #adadad;
+  box-shadow: none;
+}
+
+.index-100{
+  z-index: 100;
+}
+
+#AntdV2 .ant-picker-input > input {
+  color: white !important;
+}
+
+#AntdV2 .anticon svg {
+  color: white !important;
+  background: #374151 !important;
+}
+
+#AntdV2 .ant-picker-clear{
+  background: #374151 !important;
+}
+#AntdV2 .ant-btn-primary {
+  background: #2563EB !important;
+  border-color: #2563EB !important;
+}
