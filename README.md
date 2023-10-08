@@ -4,8 +4,6 @@
 
 This is a repository for Frontend Room Booking App: React.js, Axios, Full Calendar, Tailwind, Vite.js | Softinsa
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ZbX4Ok9YX94)
-
 Features:
 
 - Manage all the Booking System
